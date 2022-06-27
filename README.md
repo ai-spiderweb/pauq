@@ -3,7 +3,7 @@ PAUQ🕷️ = <b>P</b>ioneer d<b>A</b>taset for r<b>U</b>ssian text-to-S<b>Q</b>
 
 The Text-to-SQL dataset in Russian based on <a href="https://yale-lily.github.io/spider">Spider</a>. It contains three components that are modified, localized and enllarged: the NL questions, the SQL queries and the content of the databases. DB, table and column names remain unchanged; values are augmented by new Russian examples differ from existing ones. 
 
-<img src="https://i.ibb.co/gw2qjhD/pauq.jpg" width="600">
+<img src="https://i.ibb.co/gw2qjhD/pauq.jpg">
 
 ## Data Content and Format
 <a href="/dataset/pauq_train.json">Train set</a>:  8800 samples
