@@ -8,9 +8,9 @@ The Text-to-SQL dataset in Russian based on <a href="https://yale-lily.github.io
 ## Data Content and Format
 <a href="https://yale-lily.github.io/spider">Spider dataset</a>
 
-<a href="/dataset/pauq_train.json">Train set</a>:  8800 samples
+<a href="/dataset/pauq_train.json">PAUQ train set</a>:  8800 samples
 
-<a href="/dataset/pauq_dev.json">Dev set</a>: 1076 samples
+<a href="/dataset/pauq_dev.json">PAUQ dev set</a>: 1076 samples
 
 **Structure:**
 
