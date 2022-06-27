@@ -12,6 +12,8 @@ The Text-to-SQL dataset in Russian based on <a href="https://yale-lily.github.io
 
 <a href="/dataset/pauq_dev.json">PAUQ dev set</a>: 1076 samples
 
+<a href="https://drive.google.com/file/d/1NruQ7yW4NxL0HNQOLYDmssq_8JT5sy-a/view?usp=sharing">Databeses</a>
+
 **Structure:**
 
 - <code>id</code> **[str]** </tt> primery key
