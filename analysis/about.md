@@ -1,8 +1,8 @@
 <table>
     <tr>
-      <td><b>SQL structure</b></td>
-        <td><b>Amount of sample</b></td>
-        <td><b>Share of the tota</b></td>
+      <th><b>SQL structure</b></th>
+      <th><b>Amount of sample</b></th>
+      <th><b>Share of the tota</b></th>
     </tr>
     <tr>
         <td>SELECT &lt;ent&gt; FROM &lt;ent&gt; WHERE &lt;ent&gt;</td>
