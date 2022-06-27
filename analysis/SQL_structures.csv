@@ -1,0 +1,403 @@
+SQL structure,Amount of samples,Share of the total
+SELECT <ent> FROM <ent> WHERE <ent>,1328,13.70%
+SELECT <ent> FROM <ent> JOIN <ent> WHERE <ent>,869,8.97%
+SELECT <ent> FROM <ent>,809,8.35%
+SELECT <ent> FROM <ent> JOIN <ent> JOIN <ent> WHERE <ent>,493,5.09%
+"SELECT <ent> , <ent> FROM <ent> GROUP BY <ent>",332,3.43%
+"SELECT <ent> , <ent> FROM <ent> JOIN <ent> WHERE <ent>",249,2.57%
+SELECT <ent> FROM <ent> JOIN <ent> JOIN <ent> JOIN <ent> WHERE <ent>,237,2.45%
+"SELECT <ent> , <ent> FROM <ent> WHERE <ent>",235,2.42%
+SELECT <ent> FROM <ent> GROUP BY <ent> ORDER BY <ent> DESC LIMIT <ent>,221,2.28%
+"SELECT <ent> , <ent> FROM <ent>",216,2.23%
+SELECT <ent> FROM <ent> WHERE <ent> SELECT <ent> FROM <ent>,199,2.05%
+SELECT <ent> FROM <ent> WHERE <ent> IN <ent> SELECT <ent> FROM <ent>,190,1.96%
+SELECT <ent> FROM <ent> GROUP BY <ent> HAVING <ent>,162,1.67%
+"SELECT <ent> , <ent> FROM <ent> JOIN <ent> GROUP BY <ent>",156,1.61%
+SELECT <ent> FROM <ent> ORDER BY <ent> DESC LIMIT <ent>,148,1.53%
+SELECT <ent> FROM <ent> JOIN <ent> GROUP BY <ent> ORDER BY <ent> DESC LIMIT <ent>,147,1.52%
+SELECT <ent> FROM <ent> JOIN <ent> GROUP BY <ent> HAVING <ent>,104,1.07%
+SELECT <ent> FROM <ent> WHERE <ent> INTERSECT SELECT <ent> FROM <ent> WHERE <ent>,96,0.99%
+"SELECT <ent> , <ent> FROM <ent> JOIN <ent> GROUP BY <ent> ORDER BY <ent> DESC LIMIT <ent>",95,0.98%
+SELECT <ent> FROM <ent> ORDER BY <ent>,91,0.94%
+"SELECT <ent> , <ent> FROM <ent> JOIN <ent>",89,0.92%
+SELECT <ent> FROM <ent> WHERE <ent> SELECT <ent> FROM <ent> WHERE <ent>,86,0.89%
+"SELECT <ent> , <ent> FROM <ent> JOIN <ent> JOIN <ent> WHERE <ent>",84,0.87%
+SELECT <ent> FROM <ent> ORDER BY <ent> ASC,82,0.85%
+"SELECT <ent> , <ent> FROM <ent> JOIN <ent> GROUP BY <ent> HAVING <ent>",78,0.80%
+SELECT <ent> FROM <ent> ORDER BY <ent> DESC,71,0.73%
+SELECT <ent> FROM <ent> JOIN <ent> JOIN <ent> JOIN <ent> JOIN <ent> WHERE <ent>,67,0.69%
+"SELECT <ent> , <ent> , <ent> FROM <ent>",66,0.68%
+SELECT <ent> FROM <ent> JOIN <ent> WHERE <ent> INTERSECT SELECT <ent> FROM <ent> JOIN <ent> WHERE <ent>,63,0.65%
+SELECT <ent> FROM <ent> WHERE <ent> IN <ent> SELECT <ent> FROM <ent> WHERE <ent>,62,0.64%
+"SELECT <ent> , <ent> FROM <ent> WHERE <ent> GROUP BY <ent>",56,0.58%
+"SELECT <ent> , <ent> FROM <ent> ORDER BY <ent> DESC LIMIT <ent>",55,0.57%
+"SELECT <ent> , <ent> FROM <ent> JOIN <ent> JOIN <ent> JOIN <ent> WHERE <ent> GROUP BY <ent> ORDER BY <ent> DESC <ent>",51,0.53%
+"SELECT <ent> , <ent> , <ent> FROM <ent> WHERE <ent>",45,0.46%
+"SELECT <ent> , <ent> , <ent> FROM <ent> JOIN <ent> GROUP BY <ent> ORDER BY <ent> DESC LIMIT <ent>",44,0.45%
+SELECT <ent> FROM <ent> JOIN <ent>,43,0.44%
+"SELECT <ent> , <ent> , <ent> FROM <ent> JOIN <ent> GROUP BY <ent>",41,0.42%
+"SELECT <ent> , <ent> , <ent> FROM <ent> GROUP BY <ent>",40,0.41%
+SELECT <ent> FROM <ent> JOIN <ent> JOIN <ent> WHERE <ent> INTERSECT SELECT <ent> FROM <ent> JOIN <ent> JOIN <ent> WHERE <ent>,38,0.39%
+SELECT <ent> FROM <ent> JOIN <ent> ORDER BY <ent> DESC LIMIT <ent>,38,0.39%
+SELECT <ent> FROM <ent> EXCEPT SELECT <ent> FROM <ent> JOIN <ent>,37,0.38%
+"SELECT <ent> , <ent> FROM <ent> GROUP BY <ent> ORDER BY <ent> DESC LIMIT <ent>",36,0.37%
+SELECT <ent> FROM <ent> EXCEPT SELECT <ent> FROM <ent>,34,0.35%
+"SELECT <ent> , <ent> FROM <ent> ORDER BY <ent>",33,0.34%
+SELECT <ent> FROM <ent> ORDER BY <ent> ASC LIMIT <ent>,31,0.32%
+SELECT <ent> FROM <ent> EXCEPT SELECT <ent> FROM <ent> WHERE <ent>,29,0.30%
+"SELECT <ent> , <ent> , <ent> FROM <ent> JOIN <ent>",29,0.30%
+"SELECT <ent> , <ent> FROM <ent> JOIN <ent> JOIN <ent>",28,0.29%
+"SELECT <ent> , <ent> FROM <ent> ORDER BY <ent> LIMIT <ent>",26,0.27%
+SELECT <ent> FROM <ent> JOIN <ent> WHERE <ent> SELECT <ent> FROM <ent>,26,0.27%
+SELECT <ent> FROM <ent> ORDER BY <ent> LIMIT <ent>,24,0.25%
+"SELECT <ent> , <ent> FROM <ent> JOIN <ent> ORDER BY <ent> DESC LIMIT <ent>",24,0.25%
+"SELECT <ent> , <ent> FROM <ent> ORDER BY <ent> DESC",24,0.25%
+"SELECT <ent> , <ent> FROM <ent> GROUP BY <ent> HAVING <ent>",24,0.25%
+SELECT <ent> FROM <ent> JOIN <ent> JOIN <ent> GROUP BY <ent> ORDER BY <ent> DESC LIMIT <ent>,24,0.25%
+SELECT <ent> FROM <ent> EXCEPT SELECT <ent> FROM <ent> JOIN <ent> WHERE <ent>,23,0.24%
+SELECT <ent> FROM <ent> GROUP BY <ent> ORDER BY <ent> ASC LIMIT <ent>,23,0.24%
+SELECT <ent> FROM <ent> WHERE <ent> IN <ent> SELECT <ent> FROM <ent> JOIN <ent> WHERE <ent>,23,0.24%
+SELECT <ent> FROM <ent> WHERE <ent> UNION SELECT <ent> FROM <ent> WHERE <ent>,23,0.24%
+SELECT <ent> FROM <ent> JOIN <ent> WHERE <ent> GROUP BY <ent> ORDER BY <ent> DESC LIMIT <ent>,22,0.23%
+"SELECT <ent> , <ent> FROM <ent> JOIN <ent> WHERE <ent> GROUP BY <ent>",22,0.23%
+"SELECT <ent> , <ent> , <ent> FROM <ent> ORDER BY <ent>",21,0.22%
+"SELECT <ent> , <ent> FROM <ent> JOIN <ent> JOIN <ent> WHERE <ent> GROUP BY <ent> ORDER BY <ent> DESC <ent>",21,0.22%
+SELECT <ent> FROM <ent> WHERE <ent> EXCEPT SELECT <ent> FROM <ent> WHERE <ent>,20,0.21%
+"SELECT <ent> , <ent> FROM <ent> JOIN <ent> JOIN <ent> GROUP BY <ent>",19,0.20%
+SELECT <ent> FROM <ent> WHERE <ent> GROUP BY <ent> HAVING <ent>,19,0.20%
+SELECT <ent> FROM <ent> WHERE <ent> GROUP BY <ent> ORDER BY <ent> DESC LIMIT <ent>,19,0.20%
+SELECT <ent> FROM <ent> WHERE <ent> SELECT <ent> FROM <ent> WHERE <ent> IN <ent> SELECT <ent> FROM <ent> WHERE <ent> IN <ent> SELECT <ent> FROM <ent> WHERE <ent>,19,0.20%
+"SELECT <ent> , <ent> FROM <ent> JOIN <ent> JOIN <ent> JOIN <ent> JOIN <ent> WHERE <ent>",19,0.20%
+"SELECT <ent> , <ent> FROM <ent> JOIN <ent> WHERE <ent> INTERSECT SELECT <ent> , <ent> FROM <ent> JOIN <ent> WHERE <ent>",18,0.19%
+"SELECT <ent> , <ent> , <ent> FROM <ent> JOIN <ent> WHERE <ent>",17,0.18%
+"SELECT <ent> , <ent> , <ent> FROM <ent> ORDER BY <ent> DESC LIMIT <ent>",16,0.17%
+SELECT <ent> FROM <ent> GROUP BY <ent> ORDER BY <ent> LIMIT <ent>,16,0.17%
+"SELECT <ent> , <ent> FROM <ent> WHERE <ent> IN <ent> SELECT <ent> FROM <ent>",16,0.17%
+"SELECT <ent> , <ent> FROM <ent> JOIN <ent> WHERE <ent> GROUP BY <ent> ORDER BY <ent> DESC LIMIT <ent>",15,0.15%
+SELECT <ent> FROM <ent> WHERE <ent> ORDER BY <ent> DESC LIMIT <ent>,15,0.15%
+SELECT <ent> FROM <ent> UNION SELECT <ent> FROM <ent>,15,0.15%
+"SELECT <ent> , <ent> FROM <ent> WHERE <ent> SELECT <ent> FROM <ent>",15,0.15%
+"SELECT <ent> , <ent> FROM <ent> GROUP BY <ent> ORDER BY <ent> DESC",15,0.15%
+"SELECT <ent> , <ent> FROM <ent> JOIN <ent> WHERE <ent> SELECT <ent> FROM <ent>",14,0.14%
+"SELECT <ent> , <ent> FROM <ent> ORDER BY <ent> ASC LIMIT <ent>",14,0.14%
+SELECT <ent> FROM <ent> JOIN <ent> ORDER BY <ent> DESC,14,0.14%
+SELECT <ent> FROM <ent> INTERSECT SELECT <ent> FROM <ent>,14,0.14%
+"SELECT <ent> , <ent> FROM <ent> JOIN <ent> JOIN <ent> GROUP BY <ent> ORDER BY <ent> DESC LIMIT <ent>",14,0.14%
+"SELECT <ent> , <ent> FROM <ent> WHERE <ent> SELECT <ent> FROM <ent> WHERE <ent>",14,0.14%
+SELECT <ent> FROM <ent> JOIN <ent> JOIN <ent> JOIN <ent> JOIN <ent> JOIN <ent> WHERE <ent>,14,0.14%
+SELECT <ent> FROM <ent> JOIN <ent> WHERE <ent> ORDER BY <ent> DESC LIMIT <ent>,13,0.13%
+SELECT <ent> FROM <ent> JOIN <ent> GROUP BY <ent> ORDER BY <ent> LIMIT <ent>,13,0.13%
+SELECT <ent> FROM <ent> JOIN <ent> WHERE <ent> ORDER BY <ent>,13,0.13%
+SELECT <ent> FROM <ent> JOIN <ent> ORDER BY <ent> LIMIT <ent>,13,0.13%
+SELECT <ent> FROM <ent> JOIN <ent> JOIN <ent> GROUP BY <ent> HAVING <ent>,13,0.13%
+"SELECT <ent> , <ent> FROM <ent> JOIN <ent> WHERE <ent> SELECT <ent> FROM <ent> JOIN <ent> WHERE <ent>",13,0.13%
+"SELECT <ent> , <ent> FROM <ent> JOIN <ent> JOIN <ent> WHERE <ent> GROUP BY <ent>",13,0.13%
+SELECT <ent> FROM <ent> JOIN <ent> JOIN <ent> JOIN <ent> WHERE <ent> GROUP BY <ent> HAVING <ent>,13,0.13%
+"SELECT <ent> , <ent> , <ent> FROM <ent> ORDER BY <ent> DESC",12,0.12%
+SELECT <ent> FROM <ent> WHERE <ent> ORDER BY <ent>,12,0.12%
+"SELECT <ent> , <ent> FROM <ent> JOIN <ent> ORDER BY <ent> LIMIT <ent>",12,0.12%
+SELECT <ent> FROM <ent> WHERE <ent> IN <ent> SELECT <ent> FROM <ent> WHERE <ent> SELECT <ent> FROM <ent>,12,0.12%
+"SELECT <ent> , <ent> FROM <ent> JOIN <ent> JOIN <ent> WHERE <ent> SELECT <ent> FROM <ent> JOIN <ent> WHERE <ent>",12,0.12%
+SELECT <ent> FROM <ent> EXCEPT SELECT <ent> FROM <ent> JOIN <ent> JOIN <ent> WHERE <ent>,11,0.11%
+"SELECT <ent> , <ent> FROM <ent> JOIN <ent> JOIN <ent> ORDER BY <ent>",11,0.11%
+"SELECT <ent> , <ent> , <ent> FROM <ent> JOIN <ent> GROUP BY <ent> HAVING <ent>",11,0.11%
+"SELECT <ent> , <ent> FROM <ent> WHERE <ent> ORDER BY <ent>",11,0.11%
+"SELECT <ent> , <ent> FROM <ent> ORDER BY <ent> ASC",11,0.11%
+SELECT <ent> FROM <ent> JOIN <ent> GROUP BY <ent> ORDER BY <ent> ASC LIMIT <ent>,11,0.11%
+SELECT <ent> FROM <ent> WHERE <ent> SELECT <ent> FROM <ent> JOIN <ent>,11,0.11%
+"SELECT <ent> , <ent> FROM <ent> JOIN <ent> JOIN <ent> WHERE <ent> ORDER BY <ent> DESC <ent>",11,0.11%
+SELECT <ent> FROM <ent> JOIN <ent> JOIN <ent> JOIN <ent> WHERE <ent> GROUP BY <ent> ORDER BY <ent> DESC LIMIT <ent>,11,0.11%
+SELECT <ent> FROM <ent> JOIN <ent> ORDER BY <ent> ASC LIMIT <ent>,9,0.09%
+SELECT <ent> FROM <ent> WHERE <ent> ORDER BY <ent> DESC,9,0.09%
+"SELECT <ent> , <ent> FROM <ent> JOIN <ent> GROUP BY <ent> ORDER BY <ent> ASC LIMIT <ent>",9,0.09%
+SELECT <ent> FROM <ent> JOIN <ent> JOIN <ent> WHERE <ent> GROUP BY <ent> ORDER BY <ent> DESC LIMIT <ent>,9,0.09%
+"SELECT <ent> , <ent> , <ent> FROM <ent> JOIN <ent> GROUP BY <ent> ORDER BY <ent> ASC LIMIT <ent>",9,0.09%
+"SELECT <ent> , <ent> , <ent> , <ent> FROM <ent>",9,0.09%
+SELECT <ent> FROM <ent> JOIN <ent> JOIN <ent> ORDER BY <ent> DESC LIMIT <ent>,9,0.09%
+SELECT <ent> FROM <ent> JOIN <ent> JOIN <ent> WHERE <ent> ORDER BY <ent> DESC LIMIT <ent>,9,0.09%
+"SELECT <ent> , <ent> FROM <ent> JOIN <ent> JOIN <ent> JOIN <ent> WHERE <ent>",9,0.09%
+SELECT <ent> FROM <ent> WHERE <ent> IN <ent> SELECT <ent> FROM <ent> WHERE <ent> IN <ent> SELECT <ent> FROM <ent> WHERE <ent>,9,0.09%
+SELECT <ent> FROM <ent> WHERE <ent> SELECT <ent> FROM <ent> WHERE <ent> SELECT <ent> FROM <ent>,9,0.09%
+"SELECT <ent> , <ent> FROM <ent> JOIN <ent> GROUP BY <ent> ORDER BY <ent> LIMIT <ent>",8,0.08%
+"SELECT <ent> , <ent> , <ent> FROM <ent> JOIN <ent> JOIN <ent> WHERE <ent>",8,0.08%
+"SELECT <ent> , <ent> FROM <ent> JOIN <ent> JOIN <ent> WHERE <ent> SELECT <ent> FROM <ent>",8,0.08%
+SELECT <ent> FROM <ent> JOIN <ent> JOIN <ent> WHERE <ent> SELECT <ent> FROM <ent>,8,0.08%
+"SELECT <ent> , <ent> , <ent> , <ent> FROM <ent> JOIN <ent> GROUP BY <ent>",8,0.08%
+"SELECT <ent> , <ent> , <ent> FROM <ent> WHERE <ent> ORDER BY <ent>",8,0.08%
+SELECT <ent> FROM <ent> WHERE <ent> SELECT <ent> FROM <ent> WHERE <ent> IN <ent> SELECT <ent> FROM <ent> WHERE <ent> SELECT <ent> FROM <ent> IN <ent> SELECT <ent> FROM <ent> WHERE <ent> SELECT <ent> FROM <ent>,8,0.08%
+SELECT <ent> FROM <ent> JOIN <ent> JOIN <ent> WHERE <ent> GROUP BY <ent>,8,0.08%
+"SELECT <ent> , <ent> FROM <ent> JOIN <ent> WHERE <ent> IN <ent> SELECT <ent> FROM <ent> WHERE <ent>",8,0.08%
+SELECT <ent> FROM <ent> JOIN <ent> JOIN <ent> WHERE <ent> GROUP BY <ent> HAVING <ent>,7,0.07%
+SELECT <ent> FROM <ent> JOIN <ent> WHERE <ent> GROUP BY <ent> HAVING <ent>,7,0.07%
+SELECT <ent> FROM <ent> JOIN <ent> JOIN <ent> WHERE <ent> ORDER BY <ent>,7,0.07%
+"SELECT <ent> , <ent> FROM <ent> JOIN <ent> WHERE <ent> GROUP BY <ent> HAVING <ent>",7,0.07%
+SELECT <ent> FROM <ent> WHERE <ent> SELECT <ent> FROM <ent> ORDER BY <ent> DESC LIMIT <ent>,6,0.06%
+"SELECT <ent> , <ent> FROM <ent> JOIN <ent> JOIN <ent> GROUP BY <ent> HAVING <ent>",6,0.06%
+SELECT <ent> FROM <ent> JOIN <ent> ORDER BY <ent>,6,0.06%
+SELECT <ent> FROM <ent> JOIN <ent> WHERE <ent> IN <ent> SELECT <ent> FROM <ent> JOIN <ent> WHERE <ent>,6,0.06%
+"SELECT <ent> , <ent> , <ent> FROM <ent> ORDER BY <ent> LIMIT <ent>",6,0.06%
+SELECT <ent> FROM <ent> GROUP BY <ent> ORDER BY <ent> DESC,6,0.06%
+SELECT <ent> FROM <ent> JOIN <ent> JOIN <ent> WHERE <ent> EXCEPT SELECT <ent> FROM <ent> JOIN <ent> JOIN <ent> WHERE <ent>,6,0.06%
+SELECT <ent> FROM <ent> WHERE <ent> SELECT <ent> FROM <ent> GROUP BY <ent> ORDER BY <ent> DESC LIMIT <ent>,6,0.06%
+"SELECT <ent> , <ent> , <ent> FROM <ent> JOIN <ent> JOIN <ent>",6,0.06%
+SELECT <ent> FROM <ent> JOIN <ent> WHERE <ent> SELECT <ent> FROM <ent> JOIN <ent> WHERE <ent>,6,0.06%
+SELECT <ent> FROM <ent> JOIN <ent> EXCEPT SELECT <ent> FROM <ent> JOIN <ent> WHERE <ent>,6,0.06%
+SELECT <ent> FROM <ent> WHERE <ent> IN <ent> SELECT <ent> FROM <ent> WHERE <ent> ORDER BY <ent> DESC LIMIT <ent>,6,0.06%
+SELECT <ent> FROM <ent> JOIN <ent> JOIN <ent> WHERE <ent> ORDER BY <ent> DESC <ent>,6,0.06%
+"SELECT <ent> , <ent> FROM <ent> GROUP BY <ent> ORDER BY <ent>",5,0.05%
+"SELECT <ent> , <ent> , <ent> FROM <ent> EXCEPT SELECT <ent> , <ent> , <ent> FROM <ent> JOIN <ent>",5,0.05%
+"SELECT <ent> , <ent> FROM <ent> JOIN <ent> JOIN <ent> WHERE <ent> ORDER BY <ent>",5,0.05%
+"SELECT <ent> , <ent> FROM <ent> JOIN <ent> ORDER BY <ent>",5,0.05%
+SELECT <ent> FROM <ent> JOIN <ent> WHERE <ent> SELECT <ent> FROM <ent> ORDER BY <ent> DESC LIMIT <ent>,5,0.05%
+"SELECT <ent> , <ent> FROM <ent> JOIN <ent> WHERE <ent> ORDER BY <ent> DESC LIMIT <ent>",4,0.04%
+SELECT <ent> FROM <ent> JOIN <ent> WHERE <ent> ORDER BY <ent> ASC LIMIT <ent>,4,0.04%
+SELECT <ent> FROM <ent> JOIN <ent> WHERE <ent> EXCEPT SELECT <ent> FROM <ent> JOIN <ent> WHERE <ent>,4,0.04%
+SELECT <ent> FROM <ent> JOIN <ent> JOIN <ent>,4,0.04%
+SELECT <ent> FROM <ent> JOIN <ent> WHERE <ent> EXCEPT SELECT <ent> FROM <ent> JOIN <ent>,4,0.04%
+"SELECT <ent> , <ent> , <ent> FROM <ent> ORDER BY <ent> ASC LIMIT <ent>",4,0.04%
+"SELECT <ent> , <ent> FROM <ent> GROUP BY <ent> ORDER BY <ent> ASC LIMIT <ent>",4,0.04%
+SELECT <ent> FROM <ent> WHERE <ent> ORDER BY <ent> LIMIT <ent>,4,0.04%
+SELECT <ent> FROM <ent> JOIN <ent> WHERE <ent> UNION SELECT <ent> FROM <ent> JOIN <ent> WHERE <ent>,4,0.04%
+"SELECT <ent> , <ent> , <ent> FROM <ent> WHERE <ent> ORDER BY <ent> DESC LIMIT <ent>",4,0.04%
+"SELECT <ent> , <ent> FROM <ent> WHERE <ent> SELECT <ent> FROM <ent> GROUP BY <ent>",4,0.04%
+SELECT <ent> FROM <ent> GROUP BY <ent> ORDER BY <ent> ASC,4,0.04%
+SELECT <ent> FROM <ent> WHERE <ent> IN <ent> SELECT <ent> FROM <ent> JOIN <ent>,4,0.04%
+SELECT <ent> FROM <ent> WHERE <ent> IN <ent> SELECT <ent> FROM <ent> GROUP BY <ent> HAVING <ent>,4,0.04%
+"SELECT <ent> , <ent> , <ent> , <ent> FROM <ent> WHERE <ent>",4,0.04%
+"SELECT <ent> , <ent> FROM <ent> WHERE <ent> GROUP BY <ent> ORDER BY <ent> DESC LIMIT <ent>",4,0.04%
+SELECT <ent> FROM <ent> WHERE <ent> EXCEPT SELECT <ent> FROM <ent> GROUP BY <ent> HAVING <ent>,4,0.04%
+SELECT <ent> FROM <ent> JOIN <ent> WHERE <ent> SELECT <ent> FROM <ent> GROUP BY <ent> ORDER BY <ent> DESC LIMIT <ent>,4,0.04%
+"SELECT <ent> , <ent> FROM <ent> WHERE <ent> IN <ent> SELECT <ent> FROM <ent> WHERE <ent> INTERSECT SELECT <ent> FROM <ent> WHERE <ent>",4,0.04%
+"SELECT <ent> , <ent> FROM <ent> WHERE <ent> IN <ent> SELECT <ent> FROM <ent> JOIN <ent> WHERE <ent>",4,0.04%
+"SELECT <ent> , <ent> FROM <ent> WHERE <ent> IN <ent> SELECT <ent> FROM <ent> WHERE <ent>",4,0.04%
+"SELECT <ent> , <ent> FROM <ent> EXCEPT SELECT <ent> , <ent> FROM <ent> JOIN <ent> JOIN <ent> WHERE <ent>",4,0.04%
+"SELECT <ent> FROM <ent> ORDER BY <ent> , <ent>",4,0.04%
+"SELECT <ent> , <ent> , <ent> FROM <ent> GROUP BY <ent> , <ent>",4,0.04%
+"SELECT <ent> , <ent> FROM <ent> GROUP BY <ent> , <ent> ORDER BY <ent> DESC LIMIT <ent>",4,0.04%
+SELECT <ent> FROM <ent> JOIN <ent> JOIN <ent> ORDER BY <ent> LIMIT <ent>,4,0.04%
+"SELECT <ent> , <ent> FROM <ent> JOIN <ent> JOIN <ent> ORDER BY <ent> LIMIT <ent>",4,0.04%
+"SELECT <ent> , <ent> FROM <ent> JOIN <ent> JOIN <ent> WHERE <ent> INTERSECT SELECT <ent> , <ent> FROM <ent> JOIN <ent> JOIN <ent> WHERE <ent>",4,0.04%
+"SELECT <ent> , <ent> FROM <ent> JOIN <ent> JOIN <ent> WHERE <ent> EXCEPT SELECT <ent> , <ent> FROM <ent> JOIN <ent> JOIN <ent> WHERE <ent>",4,0.04%
+"SELECT <ent> , <ent> , <ent> FROM <ent> JOIN <ent> WHERE <ent> GROUP BY <ent> ORDER BY <ent>",4,0.04%
+"SELECT <ent> , <ent> , <ent> , <ent> FROM <ent> JOIN <ent> GROUP BY <ent> ORDER BY <ent> DESC LIMIT <ent>",4,0.04%
+"SELECT <ent> , <ent> , <ent> FROM <ent> ORDER BY <ent> ASC",4,0.04%
+"SELECT <ent> , <ent> , <ent> , <ent> FROM <ent> GROUP BY <ent>",4,0.04%
+"SELECT <ent> , <ent> , <ent> FROM <ent> JOIN <ent> JOIN <ent> JOIN <ent>",4,0.04%
+"SELECT <ent> FROM <ent> GROUP BY <ent> , <ent> HAVING <ent>",4,0.04%
+"SELECT <ent> , <ent> , <ent> FROM <ent> WHERE <ent> SELECT <ent> FROM <ent> WHERE <ent>",4,0.04%
+SELECT <ent> FROM <ent> JOIN <ent> WHERE <ent> INTERSECT SELECT <ent> FROM <ent> WHERE <ent>,4,0.04%
+"SELECT <ent> , <ent> , <ent> FROM <ent> JOIN <ent> GROUP BY <ent> ORDER BY <ent>",4,0.04%
+SELECT <ent> FROM <ent> WHERE <ent> EXCEPT SELECT <ent> FROM <ent> JOIN <ent> JOIN <ent> WHERE <ent>,4,0.04%
+"SELECT <ent> , <ent> FROM <ent> JOIN <ent> WHERE <ent> EXCEPT SELECT <ent> , <ent> FROM <ent> JOIN <ent> WHERE <ent>",4,0.04%
+"SELECT <ent> , <ent> FROM <ent> WHERE <ent> SELECT <ent> FROM <ent> GROUP BY <ent> ORDER BY <ent> DESC LIMIT <ent>",4,0.04%
+SELECT <ent> FROM <ent> JOIN <ent> JOIN <ent> WHERE <ent> IN <ent>,4,0.04%
+SELECT <ent> FROM <ent> JOIN <ent> EXCEPT SELECT <ent> FROM <ent> WHERE <ent>,4,0.04%
+"SELECT <ent> , <ent> FROM <ent> JOIN <ent> WHERE <ent> IN <ent> SELECT <ent> FROM <ent> JOIN <ent> WHERE <ent>",4,0.04%
+SELECT <ent> FROM <ent> JOIN <ent> JOIN <ent> GROUP BY <ent> ORDER BY <ent> LIMIT <ent>,4,0.04%
+SELECT <ent> FROM <ent> JOIN <ent> WHERE <ent> IN <ent> SELECT <ent> FROM <ent> WHERE <ent> SELECT <ent> FROM <ent>,4,0.04%
+"SELECT <ent> , <ent> FROM <ent> JOIN <ent> WHERE <ent> GROUP BY <ent> ORDER BY <ent> DESC <ent>",4,0.04%
+SELECT <ent> FROM <ent> JOIN <ent> JOIN <ent> WHERE <ent> GROUP BY <ent> ORDER BY <ent> ASC <ent>,4,0.04%
+SELECT <ent> FROM <ent> JOIN <ent> JOIN <ent> JOIN <ent> JOIN <ent> JOIN <ent> JOIN <ent> WHERE <ent>,4,0.04%
+SELECT <ent> FROM <ent> JOIN <ent> INTERSECT SELECT <ent> FROM <ent> JOIN <ent>,3,0.03%
+"SELECT <ent> , <ent> FROM <ent> EXCEPT SELECT <ent> , <ent> FROM <ent> JOIN <ent>",3,0.03%
+"SELECT <ent> , <ent> , <ent> FROM <ent> JOIN <ent> GROUP BY <ent> ORDER BY <ent> DESC",3,0.03%
+"SELECT <ent> , <ent> FROM <ent> JOIN <ent> ORDER BY <ent> DESC",3,0.03%
+"SELECT <ent> , <ent> FROM <ent> JOIN <ent> JOIN <ent> ORDER BY <ent> DESC",3,0.03%
+"SELECT <ent> , <ent> , <ent> FROM <ent> JOIN <ent> JOIN <ent> GROUP BY <ent>",3,0.03%
+SELECT <ent> FROM <ent> JOIN <ent> ORDER BY <ent> ASC,3,0.03%
+"SELECT <ent> , <ent> , <ent> , <ent> FROM <ent> JOIN <ent> JOIN <ent>",3,0.03%
+SELECT <ent> FROM <ent> WHERE <ent> INTERSECT SELECT <ent> FROM <ent> JOIN <ent> WHERE <ent>,3,0.03%
+"SELECT <ent> , <ent> , <ent> FROM <ent> JOIN <ent> GROUP BY <ent> HAVING <ent> UNION SELECT <ent> , <ent> , <ent> FROM <ent> JOIN <ent> GROUP BY <ent> HAVING <ent>",3,0.03%
+"SELECT <ent> , <ent> FROM <ent> JOIN <ent> GROUP BY <ent> HAVING <ent> INTERSECT SELECT <ent> , <ent> FROM <ent> JOIN <ent> GROUP BY <ent> HAVING <ent>",3,0.03%
+SELECT <ent> FROM <ent> JOIN <ent> JOIN <ent> ORDER BY <ent>,3,0.03%
+"SELECT <ent> , <ent> FROM <ent> JOIN <ent> GROUP BY <ent> ORDER BY <ent> DESC",3,0.03%
+"SELECT <ent> , <ent> FROM <ent> ORDER BY <ent> , <ent>",3,0.03%
+"SELECT <ent> , <ent> FROM <ent> JOIN <ent> JOIN <ent> JOIN <ent> JOIN <ent> WHERE <ent> ORDER BY <ent> DESC <ent>",3,0.03%
+"SELECT <ent> , <ent> FROM <ent> JOIN <ent> JOIN <ent> WHERE <ent> GROUP BY <ent> ORDER BY <ent>",3,0.03%
+"SELECT <ent> , <ent> FROM <ent> JOIN <ent> JOIN <ent> JOIN <ent> WHERE <ent> GROUP BY <ent>",3,0.03%
+"SELECT <ent> , <ent> FROM <ent> WHERE <ent> IN <ent> SELECT <ent> FROM <ent> JOIN <ent> JOIN <ent> WHERE <ent>",2,0.02%
+"SELECT <ent> , <ent> FROM <ent> JOIN <ent> JOIN <ent> WHERE <ent> IN <ent> SELECT <ent> FROM <ent> JOIN <ent> JOIN <ent> WHERE <ent>",2,0.02%
+"SELECT <ent> , <ent> FROM <ent> JOIN <ent> GROUP BY <ent> HAVING <ent> INTERSECT SELECT <ent> , <ent> FROM <ent> JOIN <ent> JOIN <ent> GROUP BY <ent> HAVING <ent>",2,0.02%
+"SELECT <ent> , <ent> FROM <ent> JOIN <ent> GROUP BY <ent> HAVING <ent> UNION SELECT <ent> , <ent> FROM <ent> JOIN <ent> JOIN <ent> WHERE <ent>",2,0.02%
+SELECT <ent> FROM <ent> WHERE <ent> IN <ent> SELECT <ent> FROM <ent> UNION SELECT <ent> FROM <ent>,2,0.02%
+"SELECT <ent> , <ent> , <ent> FROM <ent> JOIN <ent> ORDER BY <ent> DESC LIMIT <ent>",2,0.02%
+"SELECT <ent> , <ent> , <ent> , <ent> FROM <ent> JOIN <ent> GROUP BY <ent> HAVING <ent>",2,0.02%
+"SELECT <ent> , <ent> , <ent> , <ent> , <ent> , <ent> FROM <ent> JOIN <ent> GROUP BY <ent> ORDER BY <ent> DESC LIMIT <ent>",2,0.02%
+SELECT <ent> FROM <ent> SELECT <ent> FROM <ent> JOIN <ent> WHERE <ent> INTERSECT SELECT <ent> FROM <ent> JOIN <ent> WHERE <ent>,2,0.02%
+"SELECT <ent> , <ent> , <ent> FROM <ent> GROUP BY <ent> HAVING <ent>",2,0.02%
+"SELECT <ent> , <ent> , <ent> FROM <ent> WHERE <ent> UNION SELECT <ent> , <ent> , <ent> FROM <ent> JOIN <ent> GROUP BY <ent> HAVING <ent>",2,0.02%
+SELECT <ent> FROM <ent> UNION SELECT <ent> FROM <ent> EXCEPT SELECT <ent> FROM <ent>,2,0.02%
+"SELECT <ent> , <ent> FROM <ent> JOIN <ent> WHERE <ent> SELECT <ent> FROM <ent> GROUP BY <ent> ORDER BY <ent> ASC LIMIT <ent>",2,0.02%
+"SELECT <ent> , <ent> , <ent> FROM <ent> JOIN <ent> ORDER BY <ent> LIMIT <ent>",2,0.02%
+SELECT <ent> FROM <ent> WHERE <ent> INTERSECT SELECT <ent> FROM <ent> GROUP BY <ent> HAVING <ent>,2,0.02%
+"SELECT <ent> , <ent> FROM <ent> JOIN <ent> GROUP BY <ent> HAVING <ent> UNION SELECT <ent> , <ent> FROM <ent> WHERE <ent>",2,0.02%
+SELECT <ent> FROM <ent> JOIN <ent> GROUP BY <ent> HAVING <ent> EXCEPT SELECT <ent> FROM <ent> WHERE <ent>,2,0.02%
+SELECT <ent> FROM <ent> GROUP BY <ent> HAVING <ent> INTERSECT SELECT <ent> FROM <ent> GROUP BY <ent> HAVING <ent>,2,0.02%
+SELECT <ent> FROM <ent> JOIN <ent> WHERE <ent> GROUP BY <ent> ORDER BY <ent>,2,0.02%
+"SELECT <ent> , <ent> FROM <ent> WHERE <ent> IN <ent> SELECT <ent> FROM <ent> WHERE <ent> EXCEPT SELECT <ent> FROM <ent> WHERE <ent>",2,0.02%
+SELECT <ent> FROM <ent> WHERE <ent> IN <ent> SELECT <ent> FROM <ent> JOIN <ent> WHERE <ent> INTERSECT SELECT <ent> FROM <ent> JOIN <ent> WHERE <ent>,2,0.02%
+"SELECT <ent> , <ent> , <ent> FROM <ent> JOIN <ent> JOIN <ent> ORDER BY <ent> ASC",2,0.02%
+"SELECT <ent> , <ent> FROM <ent> EXCEPT SELECT <ent> , <ent> FROM <ent> JOIN <ent> WHERE <ent>",2,0.02%
+"SELECT <ent> , <ent> , <ent> FROM <ent> WHERE <ent> SELECT <ent> FROM <ent>",2,0.02%
+"SELECT <ent> , <ent> FROM <ent> JOIN <ent> GROUP BY <ent> HAVING <ent> ORDER BY <ent>",2,0.02%
+SELECT <ent> FROM <ent> JOIN <ent> JOIN <ent> WHERE <ent> SELECT <ent> FROM <ent> JOIN <ent> GROUP BY <ent> ORDER BY <ent> DESC LIMIT <ent>,2,0.02%
+SELECT <ent> FROM <ent> GROUP BY <ent> HAVING <ent> ORDER BY <ent> DESC,2,0.02%
+"SELECT <ent> , <ent> FROM <ent> GROUP BY <ent> ORDER BY <ent> ASC",2,0.02%
+"SELECT <ent> , <ent> , <ent> FROM <ent> GROUP BY <ent> ORDER BY <ent> DESC LIMIT <ent>",2,0.02%
+"SELECT <ent> , <ent> FROM <ent> JOIN <ent> JOIN <ent> ORDER BY <ent> ASC",2,0.02%
+"SELECT <ent> , <ent> FROM <ent> GROUP BY <ent> HAVING <ent> SELECT <ent> FROM <ent>",2,0.02%
+"SELECT <ent> , <ent> FROM <ent> GROUP BY <ent> , <ent> ORDER BY <ent> LIMIT <ent>",2,0.02%
+"SELECT <ent> , <ent> , <ent> , <ent> FROM <ent> JOIN <ent> WHERE <ent> ORDER BY <ent>",2,0.02%
+SELECT <ent> FROM <ent> JOIN <ent> WHERE <ent> SELECT <ent> FROM <ent> ORDER BY <ent> LIMIT <ent>,2,0.02%
+"SELECT <ent> , <ent> , <ent> , <ent> FROM <ent> JOIN <ent> WHERE <ent>",2,0.02%
+SELECT <ent> FROM <ent> JOIN <ent> WHERE <ent> SELECT <ent> FROM <ent> INTERSECT SELECT <ent> FROM <ent> JOIN <ent> WHERE <ent> SELECT <ent> FROM <ent>,2,0.02%
+SELECT <ent> FROM <ent> JOIN <ent> WHERE <ent> IN <ent> SELECT <ent> FROM <ent> JOIN <ent> WHERE <ent> SELECT <ent> FROM <ent>,2,0.02%
+"SELECT <ent> , <ent> , <ent> FROM <ent> JOIN <ent> JOIN <ent> ORDER BY <ent> DESC",2,0.02%
+"SELECT <ent> FROM <ent> WHERE <ent> , <ent>",2,0.02%
+"SELECT <ent> , <ent> , <ent> FROM <ent> WHERE <ent> ORDER BY <ent> , <ent>",2,0.02%
+"SELECT <ent> , <ent> FROM <ent> JOIN <ent> JOIN <ent> ORDER BY <ent> DESC LIMIT <ent>",2,0.02%
+"SELECT <ent> , <ent> , <ent> FROM <ent> JOIN <ent> WHERE <ent> GROUP BY <ent> HAVING <ent>",2,0.02%
+"SELECT <ent> , <ent> FROM <ent> JOIN <ent> JOIN <ent> WHERE <ent> GROUP BY <ent> ORDER BY <ent> DESC LIMIT <ent>",2,0.02%
+"SELECT <ent> , <ent> , <ent> FROM <ent> JOIN <ent> JOIN <ent> GROUP BY <ent> HAVING <ent>",2,0.02%
+SELECT <ent> FROM <ent> JOIN <ent> JOIN <ent> WHERE <ent> ORDER BY <ent> LIMIT <ent>,2,0.02%
+"SELECT <ent> , <ent> , <ent> , <ent> FROM <ent> JOIN <ent> JOIN <ent> ORDER BY <ent> , <ent> , <ent>",2,0.02%
+"SELECT <ent> , <ent> FROM <ent> JOIN <ent> WHERE <ent> ORDER BY <ent> , <ent>",2,0.02%
+"SELECT <ent> , <ent> , <ent> , <ent> FROM <ent> JOIN <ent> WHERE <ent> GROUP BY <ent>",2,0.02%
+"SELECT <ent> , <ent> FROM <ent> WHERE <ent> IN <ent> SELECT <ent> FROM <ent> JOIN <ent> WHERE <ent> GROUP BY <ent>",2,0.02%
+SELECT <ent> FROM <ent> JOIN <ent> GROUP BY <ent> HAVING <ent> INTERSECT SELECT <ent> FROM <ent> JOIN <ent> GROUP BY <ent> HAVING <ent>,2,0.02%
+SELECT <ent> FROM <ent> EXCEPT SELECT <ent> FROM <ent> JOIN <ent> GROUP BY <ent> HAVING <ent>,2,0.02%
+"SELECT <ent> , <ent> FROM <ent> JOIN <ent> JOIN <ent> WHERE <ent> , <ent>",2,0.02%
+"SELECT <ent> FROM <ent> JOIN <ent> JOIN <ent> GROUP BY <ent> , <ent> ORDER BY <ent> DESC LIMIT <ent>",2,0.02%
+"SELECT <ent> , <ent> FROM <ent> WHERE <ent> INTERSECT SELECT <ent> , <ent> FROM <ent> JOIN <ent> GROUP BY <ent> HAVING <ent>",2,0.02%
+SELECT <ent> FROM <ent> WHERE <ent> UNION SELECT <ent> FROM <ent> JOIN <ent> WHERE <ent>,2,0.02%
+"SELECT <ent> , <ent> FROM <ent> JOIN <ent> ORDER BY <ent> ASC LIMIT <ent>",2,0.02%
+SELECT <ent> FROM <ent> JOIN <ent> GROUP BY <ent> ORDER BY <ent>,2,0.02%
+SELECT <ent> FROM <ent> JOIN <ent> JOIN <ent> JOIN <ent> GROUP BY <ent> ORDER BY <ent> DESC LIMIT <ent>,2,0.02%
+SELECT <ent> FROM <ent> WHERE <ent> EXCEPT SELECT <ent> FROM <ent> JOIN <ent>,2,0.02%
+SELECT <ent> FROM <ent> JOIN <ent> JOIN <ent> WHERE <ent> EXCEPT SELECT <ent> FROM <ent> JOIN <ent>,2,0.02%
+SELECT <ent> FROM <ent> JOIN <ent> JOIN <ent> JOIN <ent> JOIN <ent> WHERE <ent> INTERSECT SELECT <ent> FROM <ent> JOIN <ent> JOIN <ent> JOIN <ent> JOIN <ent> WHERE <ent>,2,0.02%
+"SELECT <ent> , <ent> , <ent> , <ent> FROM <ent> JOIN <ent> JOIN <ent> JOIN <ent> JOIN <ent>",2,0.02%
+"SELECT <ent> , <ent> , <ent> , <ent> , <ent> FROM <ent> WHERE <ent>",2,0.02%
+"SELECT <ent> , <ent> , <ent> , <ent> , <ent> FROM <ent> WHERE <ent> ORDER BY <ent>",2,0.02%
+"SELECT <ent> , <ent> FROM <ent> JOIN <ent> JOIN <ent> JOIN <ent>",2,0.02%
+"SELECT <ent> , <ent> , <ent> FROM <ent> WHERE <ent> IN <ent> SELECT <ent> FROM <ent> GROUP BY <ent>",2,0.02%
+"SELECT <ent> , <ent> , <ent> FROM <ent> WHERE <ent> IN <ent> SELECT <ent> FROM <ent> WHERE <ent>",2,0.02%
+"SELECT <ent> , <ent> , <ent> , <ent> FROM <ent> WHERE <ent> SELECT <ent> FROM <ent> IN <ent> SELECT <ent> FROM <ent> WHERE <ent>",2,0.02%
+"SELECT <ent> , <ent> , <ent> , <ent> FROM <ent> WHERE <ent> SELECT <ent> FROM <ent> WHERE <ent>",2,0.02%
+"SELECT <ent> , <ent> , <ent> , <ent> , <ent> FROM <ent> GROUP BY <ent>",2,0.02%
+"SELECT <ent> , <ent> , <ent> , <ent> , <ent> FROM <ent> JOIN <ent> JOIN <ent>",2,0.02%
+"SELECT <ent> , <ent> , <ent> , <ent> FROM <ent> JOIN <ent> JOIN <ent> JOIN <ent>",2,0.02%
+SELECT <ent> FROM <ent> JOIN <ent> WHERE <ent> UNION SELECT <ent> FROM <ent> WHERE <ent>,2,0.02%
+"SELECT <ent> , <ent> , <ent> FROM <ent> JOIN <ent> WHERE <ent> ORDER BY <ent>",2,0.02%
+SELECT <ent> FROM <ent> SELECT <ent> FROM <ent> JOIN <ent> WHERE <ent> UNION SELECT <ent> FROM <ent> JOIN <ent> WHERE <ent>,2,0.02%
+"SELECT <ent> , <ent> FROM <ent> JOIN <ent> GROUP BY <ent> ORDER BY <ent>",2,0.02%
+"SELECT <ent> , <ent> , <ent> FROM <ent> JOIN <ent> GROUP BY <ent> ORDER BY <ent> ASC",2,0.02%
+"SELECT <ent> , <ent> FROM <ent> JOIN <ent> GROUP BY <ent> HAVING <ent> UNION SELECT <ent> , <ent> FROM <ent> JOIN <ent> WHERE <ent> SELECT <ent> FROM <ent>",2,0.02%
+"SELECT <ent> , <ent> FROM <ent> JOIN <ent> GROUP BY <ent> HAVING <ent> EXCEPT SELECT <ent> , <ent> FROM <ent> JOIN <ent> JOIN <ent>",2,0.02%
+SELECT <ent> FROM <ent> WHERE <ent> UNION SELECT <ent> FROM <ent> JOIN <ent> JOIN <ent> WHERE <ent>,2,0.02%
+SELECT <ent> FROM <ent> WHERE <ent> INTERSECT SELECT <ent> FROM <ent> JOIN <ent> JOIN <ent> WHERE <ent>,2,0.02%
+"SELECT <ent> , <ent> FROM <ent> JOIN <ent> GROUP BY <ent> , <ent> ORDER BY <ent> DESC LIMIT <ent>",2,0.02%
+SELECT <ent> FROM <ent> JOIN <ent> WHERE <ent> ORDER BY <ent> DESC,2,0.02%
+"SELECT <ent> , <ent> FROM <ent> WHERE <ent> IN <ent> SELECT <ent> FROM <ent> GROUP BY <ent> ORDER BY <ent> DESC LIMIT <ent> UNION SELECT <ent> , <ent> FROM <ent> WHERE <ent>",2,0.02%
+"SELECT <ent> , <ent> , <ent> FROM <ent> JOIN <ent> WHERE <ent> UNION SELECT <ent> , <ent> , <ent> FROM <ent> JOIN <ent> JOIN <ent> GROUP BY <ent> HAVING <ent>",2,0.02%
+"SELECT <ent> , <ent> FROM <ent> JOIN <ent> GROUP BY <ent> ORDER BY <ent> ASC",2,0.02%
+SELECT <ent> FROM <ent> WHERE <ent> IN <ent> SELECT <ent> FROM <ent> GROUP BY <ent> ORDER BY <ent> DESC LIMIT <ent>,2,0.02%
+SELECT <ent> FROM <ent> WHERE <ent> SELECT <ent> FROM <ent> WHERE <ent> ORDER BY <ent>,2,0.02%
+SELECT <ent> FROM <ent> JOIN <ent> WHERE <ent> IN <ent> SELECT <ent> FROM <ent> WHERE <ent> INTERSECT SELECT <ent> FROM <ent> JOIN <ent> WHERE <ent> IN <ent> SELECT <ent> FROM <ent> WHERE <ent>,2,0.02%
+SELECT <ent> FROM <ent> JOIN <ent> WHERE <ent> IN <ent> SELECT <ent> FROM <ent> WHERE <ent> EXCEPT SELECT <ent> FROM <ent> JOIN <ent> WHERE <ent> IN <ent> SELECT <ent> FROM <ent> WHERE <ent>,2,0.02%
+"SELECT <ent> , <ent> , <ent> FROM <ent> JOIN <ent> WHERE <ent> SELECT <ent> FROM <ent>",2,0.02%
+SELECT <ent> FROM <ent> JOIN <ent> WHERE <ent> SELECT <ent> FROM <ent> WHERE <ent>,2,0.02%
+"SELECT <ent> , <ent> , <ent> FROM <ent> JOIN <ent> WHERE <ent> SELECT <ent> FROM <ent> WHERE <ent>",2,0.02%
+SELECT <ent> FROM <ent> GROUP BY <ent> ORDER BY <ent> DESC LIMIT <ent> INTERSECT SELECT <ent> FROM <ent> GROUP BY <ent> ORDER BY <ent> DESC LIMIT <ent>,2,0.02%
+SELECT <ent> FROM <ent> EXCEPT SELECT <ent> FROM <ent> JOIN <ent> JOIN <ent>,2,0.02%
+SELECT <ent> FROM <ent> WHERE <ent> SELECT <ent> FROM <ent> WHERE <ent> GROUP BY <ent> ORDER BY <ent> DESC LIMIT <ent>,2,0.02%
+SELECT <ent> FROM <ent> WHERE <ent> ORDER BY <ent> ASC,2,0.02%
+SELECT <ent> FROM <ent> GROUP BY <ent> HAVING <ent> SELECT <ent> FROM <ent>,2,0.02%
+SELECT <ent> FROM <ent> GROUP BY <ent> HAVING <ent> UNION SELECT <ent> FROM <ent> GROUP BY <ent> HAVING <ent>,2,0.02%
+"SELECT <ent> , <ent> , <ent> FROM <ent> GROUP BY <ent> ORDER BY <ent>",2,0.02%
+SELECT <ent> FROM <ent> SELECT <ent> FROM <ent> WHERE <ent> INTERSECT SELECT <ent> FROM <ent> WHERE <ent>,2,0.02%
+SELECT <ent> FROM <ent> SELECT <ent> FROM <ent> JOIN <ent> WHERE <ent> EXCEPT SELECT <ent> FROM <ent> JOIN <ent> WHERE <ent>,2,0.02%
+SELECT <ent> FROM <ent> JOIN <ent> EXCEPT SELECT <ent> FROM <ent> JOIN <ent>,2,0.02%
+SELECT <ent> FROM <ent> JOIN <ent> JOIN <ent> WHERE <ent> GROUP <ent>,2,0.02%
+"SELECT <ent> , <ent> FROM <ent> WHERE <ent> ORDER BY <ent> DESC , <ent> ASC",2,0.02%
+"SELECT <ent> FROM <ent> JOIN <ent> JOIN <ent> WHERE <ent> , <ent> INTERSECT SELECT <ent> FROM <ent> JOIN <ent> JOIN <ent> WHERE <ent> , <ent>",2,0.02%
+SELECT <ent> FROM <ent> JOIN <ent> INTERSECT SELECT <ent> FROM <ent> WHERE <ent>,2,0.02%
+"SELECT <ent> , <ent> , <ent> FROM <ent> WHERE <ent> GROUP BY <ent>",2,0.02%
+SELECT <ent> FROM <ent> JOIN <ent> WHERE <ent> IN <ent> SELECT <ent> FROM <ent> JOIN <ent> JOIN <ent> GROUP BY <ent> ORDER BY <ent> DESC LIMIT <ent>,2,0.02%
+"SELECT <ent> , <ent> FROM <ent> JOIN <ent> JOIN <ent> GROUP BY <ent> ORDER BY <ent> LIMIT <ent>",2,0.02%
+SELECT <ent> FROM <ent> WHERE <ent> GROUP BY <ent> ORDER BY <ent> LIMIT <ent>,2,0.02%
+SELECT <ent> FROM <ent> JOIN <ent> JOIN <ent> WHERE <ent> UNION SELECT <ent> FROM <ent> JOIN <ent> JOIN <ent> WHERE <ent>,2,0.02%
+"SELECT <ent> , <ent> FROM <ent> WHERE <ent> IN <ent> SELECT <ent> FROM <ent> JOIN <ent> WHERE <ent> INTERSECT SELECT <ent> FROM <ent> JOIN <ent> WHERE <ent>",2,0.02%
+SELECT <ent> FROM <ent> WHERE <ent> IN <ent> SELECT <ent> FROM <ent> JOIN <ent> JOIN <ent>,2,0.02%
+"SELECT <ent> , <ent> FROM <ent> WHERE <ent> SELECT <ent> FROM <ent> ORDER BY <ent> DESC LIMIT <ent>",2,0.02%
+SELECT <ent> FROM <ent> EXCEPT SELECT <ent> FROM <ent> JOIN <ent> JOIN <ent> JOIN <ent> WHERE <ent>,2,0.02%
+SELECT <ent> FROM <ent> JOIN <ent> JOIN <ent> JOIN <ent> WHERE <ent> INTERSECT SELECT <ent> FROM <ent> JOIN <ent> JOIN <ent> JOIN <ent> WHERE <ent>,2,0.02%
+SELECT <ent> FROM <ent> JOIN <ent> WHERE <ent> INTERSECT SELECT <ent> FROM <ent> JOIN <ent>,2,0.02%
+SELECT <ent> FROM <ent> JOIN <ent> WHERE <ent> UNION SELECT <ent> FROM <ent> JOIN <ent>,2,0.02%
+SELECT <ent> FROM <ent> JOIN <ent> JOIN <ent> WHERE <ent> SELECT <ent> FROM <ent> ORDER BY <ent> ASC LIMIT <ent>,2,0.02%
+SELECT <ent> FROM <ent> WHERE <ent> EXCEPT SELECT <ent> FROM <ent>,2,0.02%
+SELECT <ent> FROM <ent> UNION SELECT <ent> FROM <ent> WHERE <ent>,2,0.02%
+SELECT <ent> FROM <ent> EXCEPT SELECT <ent> FROM <ent> JOIN <ent> JOIN <ent> WHERE <ent> SELECT <ent> FROM <ent>,2,0.02%
+"SELECT <ent> , <ent> , <ent> FROM <ent> JOIN <ent> JOIN <ent> ORDER BY <ent> , <ent>",2,0.02%
+SELECT <ent> FROM <ent> JOIN <ent> GROUP BY <ent> HAVING <ent> ORDER BY <ent> DESC LIMIT <ent>,2,0.02%
+SELECT <ent> FROM <ent> INTERSECT SELECT <ent> FROM <ent> WHERE <ent>,2,0.02%
+"SELECT <ent> , <ent> FROM <ent> WHERE <ent> GROUP BY <ent> ORDER BY <ent> DESC",2,0.02%
+SELECT <ent> FROM <ent> SELECT <ent> FROM <ent> GROUP BY <ent> HAVING <ent>,2,0.02%
+SELECT <ent> FROM <ent> GROUP BY <ent> HAVING <ent> ORDER BY <ent>,2,0.02%
+"SELECT <ent> , <ent> , <ent> FROM <ent> JOIN <ent> GROUP BY <ent> , <ent>",2,0.02%
+"SELECT <ent> , <ent> FROM <ent> WHERE <ent> ORDER BY <ent> DESC LIMIT <ent>",2,0.02%
+SELECT <ent> FROM <ent> WHERE <ent> IN <ent> SELECT <ent> FROM <ent> WHERE <ent> ORDER BY <ent> LIMIT <ent>,2,0.02%
+"SELECT <ent> , <ent> FROM <ent> JOIN <ent> JOIN <ent> GROUP BY <ent> ORDER BY <ent> DESC <ent>",2,0.02%
+"SELECT <ent> , <ent> FROM <ent> JOIN <ent> JOIN <ent> JOIN <ent> JOIN <ent> WHERE <ent> ORDER BY <ent> ASC <ent>",2,0.02%
+"SELECT <ent> , <ent> FROM <ent> JOIN <ent> JOIN <ent> WHERE <ent> ORDER BY <ent> DESC LIMIT <ent>",2,0.02%
+SELECT <ent> FROM <ent> WHERE <ent> GROUP BY <ent>,2,0.02%
+"SELECT <ent> , <ent> FROM <ent> JOIN <ent> JOIN <ent> JOIN <ent> JOIN <ent> WHERE <ent> GROUP BY <ent> ORDER BY <ent> DESC <ent>",2,0.02%
+"SELECT <ent> , <ent> FROM <ent> JOIN <ent> JOIN <ent> WHERE <ent> GROUP BY <ent> , <ent> ORDER BY <ent> DESC <ent>",2,0.02%
+SELECT <ent> FROM <ent> JOIN <ent> JOIN <ent> JOIN <ent> JOIN <ent> WHERE <ent> GROUP BY <ent> ORDER BY <ent> DESC LIMIT <ent>,2,0.02%
+SELECT <ent> FROM <ent> JOIN <ent> JOIN <ent> JOIN <ent> JOIN <ent> WHERE <ent> ORDER BY <ent> DESC LIMIT <ent>,2,0.02%
+SELECT <ent> FROM <ent> JOIN <ent> JOIN <ent> JOIN <ent> JOIN <ent> WHERE <ent> GROUP BY <ent> HAVING <ent>,2,0.02%
+"SELECT <ent> , <ent> FROM <ent> WHERE <ent> ORDER BY <ent> DESC",1,0.01%
+"SELECT <ent> , <ent> , <ent> FROM <ent> EXCEPT SELECT <ent> , <ent> , <ent> FROM <ent> JOIN <ent> WHERE <ent>",1,0.01%
+SELECT <ent> FROM <ent> JOIN <ent> GROUP BY <ent>,1,0.01%
+SELECT <ent> FROM <ent> GROUP BY <ent>,1,0.01%
+SELECT <ent> FROM <ent> JOIN <ent> GROUP BY <ent> HAVING <ent> SELECT <ent> FROM <ent> JOIN <ent> WHERE <ent>,1,0.01%
+"SELECT <ent> , <ent> , <ent> FROM <ent> EXCEPT SELECT <ent> , <ent> , <ent> FROM <ent> JOIN <ent> JOIN <ent>",1,0.01%
+SELECT <ent> FROM <ent> JOIN <ent> WHERE <ent> INTERSECT SELECT <ent> FROM <ent> JOIN <ent> GROUP BY <ent> HAVING <ent>,1,0.01%
+SELECT <ent> FROM <ent> SELECT <ent> FROM <ent> WHERE <ent> GROUP BY <ent> HAVING <ent>,1,0.01%
+"SELECT <ent> , <ent> , <ent> FROM <ent> JOIN <ent> WHERE <ent> ORDER BY <ent> , <ent>",1,0.01%
+SELECT <ent> FROM <ent> WHERE <ent> SELECT <ent> FROM <ent> SELECT <ent> FROM <ent>,1,0.01%
+SELECT <ent> FROM <ent> JOIN <ent> GROUP BY <ent> HAVING <ent> ORDER BY <ent> DESC,1,0.01%
+SELECT <ent> FROM <ent> WHERE <ent> EXCEPT SELECT <ent> FROM <ent> JOIN <ent> WHERE <ent>,1,0.01%
+"SELECT <ent> , <ent> FROM <ent> JOIN <ent> GROUP BY <ent> , <ent> , <ent> ORDER BY <ent> DESC LIMIT <ent>",1,0.01%
+"SELECT <ent> , <ent> FROM <ent> JOIN <ent> JOIN <ent> JOIN <ent> GROUP BY <ent> ORDER BY <ent> ASC LIMIT <ent>",1,0.01%
+"SELECT <ent> FROM <ent> JOIN <ent> JOIN <ent> WHERE <ent> , <ent>",1,0.01%
+"SELECT <ent> FROM <ent> JOIN <ent> WHERE <ent> , <ent>",1,0.01%
+"SELECT <ent> , <ent> FROM <ent> JOIN <ent> GROUP BY <ent> HAVING <ent> UNION SELECT <ent> , <ent> FROM <ent> JOIN <ent> GROUP BY <ent> HAVING <ent>",1,0.01%
+"SELECT <ent> , <ent> FROM <ent> JOIN <ent> EXCEPT SELECT <ent> , <ent> FROM <ent> JOIN <ent>",1,0.01%
+"SELECT <ent> FROM <ent> WHERE <ent> ORDER BY <ent> , <ent> DESC",1,0.01%
+"SELECT <ent> , <ent> FROM <ent> JOIN <ent> ORDER BY <ent> ASC",1,0.01%
+SELECT <ent> FROM <ent> JOIN <ent> GROUP BY <ent> HAVING <ent> ORDER BY <ent>,1,0.01%
+"SELECT <ent> , <ent> , <ent> FROM <ent> JOIN <ent> WHERE <ent> INTERSECT SELECT <ent> , <ent> , <ent> FROM <ent> JOIN <ent> WHERE <ent>",1,0.01%
+"SELECT <ent> , <ent> , <ent> , <ent> FROM <ent> ORDER BY <ent>",1,0.01%
+"SELECT <ent> , <ent> FROM <ent> JOIN <ent> JOIN <ent> WHERE <ent> ORDER BY <ent> DESC",1,0.01%
+SELECT <ent> FROM <ent> WHERE <ent> SELECT <ent> FROM <ent> WHERE <ent> SELECT <ent> FROM <ent> WHERE <ent> SELECT <ent> FROM <ent> WHERE <ent> SELECT <ent> FROM <ent>,1,0.01%
+SELECT <ent> FROM <ent> WHERE <ent> IN <ent> SELECT <ent> FROM <ent> WHERE <ent> IN <ent> SELECT <ent> FROM <ent> WHERE <ent> SELECT <ent> FROM <ent> WHERE <ent> IN <ent> SELECT <ent> FROM <ent> WHERE <ent> ORDER BY <ent> DESC LIMIT <ent>,1,0.01%
+SELECT <ent> FROM <ent> WHERE <ent> SELECT <ent> FROM <ent> WHERE <ent> GROUP BY <ent> ORDER BY <ent> DESC LIMIT <ent> ORDER BY <ent> DESC LIMIT <ent>,1,0.01%
+SELECT <ent> FROM <ent> WHERE <ent> SELECT <ent> FROM <ent> WHERE <ent> IN <ent> SELECT <ent> FROM <ent> WHERE <ent>,1,0.01%
+SELECT <ent> FROM <ent> WHERE <ent> SELECT <ent> FROM <ent> WHERE <ent> SELECT <ent> FROM <ent> JOIN <ent> WHERE <ent>,1,0.01%
+SELECT <ent> FROM <ent> WHERE <ent> SELECT <ent> FROM <ent> WHERE <ent> IN <ent> SELECT <ent> FROM <ent> WHERE <ent> IN <ent> SELECT <ent> FROM <ent> WHERE <ent> SELECT <ent> FROM <ent> IN <ent> SELECT <ent> FROM <ent> WHERE <ent> IN <ent> SELECT <ent> FROM <ent> WHERE <ent> SELECT <ent> FROM <ent>,1,0.01%
+SELECT <ent> FROM <ent> WHERE <ent> IN <ent> SELECT <ent> FROM <ent> WHERE <ent> IN <ent> SELECT <ent> FROM <ent> WHERE <ent> SELECT <ent> FROM <ent>,1,0.01%
+SELECT <ent> FROM <ent> JOIN <ent> WHERE <ent> SELECT <ent> FROM <ent> JOIN <ent>,1,0.01%
+SELECT <ent> FROM <ent> JOIN <ent> WHERE <ent> SELECT <ent> FROM <ent> WHERE <ent> SELECT <ent> FROM <ent>,1,0.01%
+SELECT <ent> FROM <ent> JOIN <ent> JOIN <ent> WHERE <ent> SELECT <ent> FROM <ent> ORDER BY <ent> DESC LIMIT <ent>,1,0.01%
+"SELECT <ent> , <ent> FROM <ent> JOIN <ent> JOIN <ent> JOIN <ent> WHERE <ent> ORDER BY <ent> , <ent>",1,0.01%
+SELECT <ent> FROM <ent> JOIN <ent> JOIN <ent> WHERE <ent> IN <ent> GROUP BY <ent> HAVING <ent>,1,0.01%
+SELECT <ent> FROM <ent> JOIN <ent> JOIN <ent> JOIN <ent> WHERE <ent> ORDER BY <ent>,1,0.01%
+SELECT <ent> FROM <ent> JOIN <ent> JOIN <ent> JOIN <ent> WHERE <ent> GROUP BY <ent> ORDER BY <ent> DESC <ent>,1,0.01%
+SELECT <ent> FROM <ent> JOIN <ent> JOIN <ent> JOIN <ent> WHERE <ent> GROUP BY <ent>,1,0.01%
+"SELECT <ent> , <ent> FROM <ent> JOIN <ent> JOIN <ent> WHERE <ent> GROUP BY <ent> HAVING <ent>",1,0.01%
+"SELECT <ent> , <ent> , <ent> FROM <ent> JOIN <ent> JOIN <ent> JOIN <ent> WHERE <ent> GROUP BY <ent> , <ent> ORDER BY <ent> DESC <ent>",1,0.01%
+SELECT <ent> FROM <ent> JOIN <ent> JOIN <ent> WHERE <ent> IN <ent> SELECT <ent> FROM <ent> JOIN <ent> WHERE <ent>,1,0.01%
+SELECT <ent> FROM <ent> JOIN <ent> JOIN <ent> JOIN <ent> JOIN <ent> JOIN <ent> WHERE <ent> GROUP BY <ent> ORDER BY <ent> DESC LIMIT <ent>,1,0.01%
+SELECT <ent> FROM <ent> JOIN <ent> JOIN <ent> JOIN <ent> JOIN <ent> JOIN <ent> WHERE <ent> GROUP BY <ent> HAVING <ent>,1,0.01%
+SELECT <ent> FROM <ent> JOIN <ent> JOIN <ent> JOIN <ent> JOIN <ent> GROUP BY <ent> ORDER BY <ent> DESC LIMIT <ent>,1,0.01%
