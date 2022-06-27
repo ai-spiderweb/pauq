@@ -7,6 +7,7 @@ The Text-to-SQL dataset in Russian, based on <a href="https://yale-lily.github.i
 
 ## Data Content and Format
 <a href="/datasets/pauq_train.json">Train set</a>:  8800 samples
+
 <a href="/datasets/pauq_dev.json">Dev set</a>: 1076 samples
 
 - <code>id</code> **[str]** </tt> primery key
@@ -28,6 +29,3 @@ The Text-to-SQL dataset in Russian, based on <a href="https://yale-lily.github.i
 - <code>query_toks</code> **Dict[str, str]** the SQL query tokens corresponding to the question (<code>en</code>: English, <code>ru</code>: Russian)
 
 - <code>query_toks_no_values</code> **Dict[str, str]** the SQL query tokens, column values replaced by <VALUE>  (<code>en</code>: English, <code>ru</code>: Russian)
-
-<code>
-</code>
