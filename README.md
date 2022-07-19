@@ -14,6 +14,11 @@ The Text-to-SQL dataset in Russian based on <a href="https://yale-lily.github.io
 
 <a href="https://drive.google.com/file/d/1NruQ7yW4NxL0HNQOLYDmssq_8JT5sy-a/view?usp=sharing">Databases</a>
 
+If Spider data is loaded, it can be updated by this instructions:
+
+1. Load the <a href="/dataset/update">"upload" folder</a>.
+2. Launch <code>python converter.py --db_path=PATH-TO-DB-FOLDERS</code> (Python 3.5+).
+
 **Structure:**
 
 - <code>id</code> **[str]** </tt> primery key
