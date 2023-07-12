@@ -43,7 +43,7 @@ If Spider data is loaded, it can be updated by this instructions:
 
 
 ### Citation
-[https://arxiv.org/abs/2210.11913](https://aclanthology.org/2022.findings-emnlp.175.pdf)
+[https://aclanthology.org/2022.findings-emnlp.175.pdf](https://aclanthology.org/2022.findings-emnlp.175.pdf)
 ```
 @inproceedings{bakshandaeva-etal-2022-pauq,
     title = "{PAUQ}: Text-to-{SQL} in {R}ussian",
