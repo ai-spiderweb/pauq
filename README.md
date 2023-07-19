@@ -12,7 +12,7 @@ The Text-to-SQL dataset in Russian based on <a href="https://yale-lily.github.io
 
 <a href="/dataset/pauq_dev.json">PAUQ dev set</a>: 1076 samples
 
-<a href="https://drive.google.com/file/d/1NruQ7yW4NxL0HNQOLYDmssq_8JT5sy-a/view?usp=sharing">Databases</a>
+<a href="https://drive.google.com/file/d/1Xjbp207zfCaBxhPgt-STB_RxwNo2TIW2/view?usp=sharing">Databases</a>
 
 If Spider data is loaded, it can be updated by this instructions:
 
