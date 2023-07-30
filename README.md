@@ -43,7 +43,7 @@ If Spider data is loaded, it can be updated by this instructions:
 
 
 ### Citation
-<a href="https://aclanthology.org/2022.findings-emnlp.175.pdf](https://aclanthology.org/2022.findings-emnlp.175.pdf">Paper link</a>
+<a href="https://aclanthology.org/2022.findings-emnlp.175.pdf">Paper link</a>
 
 ```
 @inproceedings{bakshandaeva-etal-2022-pauq,
